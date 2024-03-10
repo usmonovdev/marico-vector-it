@@ -1,0 +1,19 @@
+.sidebar {
+  @apply w-full max-w-[320px] h-screen fixed top-0 right-0 bg-grey-900 p-3
+}
+
+.sidebar__backdrop {
+  @apply w-full h-screen bg-grey-800/40 fixed top-0 left-0
+}
+
+.sidebar__head {
+  @apply flex flex-row gap-2 px-3 py-2 cursor-pointer
+}
+
+.sidebar__links {
+  @apply px-3 py-2 flex flex-col gap-2
+}
+
+.sidebar__links a {
+  @apply p-2 bg-grey-800 rounded-lg cursor-pointer
+}

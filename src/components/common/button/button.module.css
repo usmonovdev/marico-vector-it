@@ -1,0 +1,11 @@
+.button {
+  @apply py-3 px-6 font-medium capitalize text-sm rounded-lg transition-colors duration-300;
+}
+
+.button__contained {
+  @apply hover:bg-primary-700 bg-primary-500 text-white;
+}
+
+.button__outlined {
+  @apply bg-black hover:border-grey-200 hover:text-grey-200 border border-grey-500 text-grey-500;
+}

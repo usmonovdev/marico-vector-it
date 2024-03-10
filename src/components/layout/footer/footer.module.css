@@ -1,0 +1,19 @@
+.footer {
+  @apply flex flex-row max-md:flex-col justify-between py-6 gap-6;
+}
+
+.footer__brand {
+  @apply flex flex-col items-center max-md:items-start;
+}
+
+.footer__brand img {
+  @apply h-[40px] w-fit;
+}
+
+.footer__links {
+  @apply flex flex-row max-md:flex-col items-center max-md:items-start gap-6 max-md:gap-2 text-grey-500;
+}
+
+.footer__links li {
+  @apply hover:text-primary-500 transition-colors duration-200;
+}

@@ -1,0 +1,19 @@
+.navbar {
+  @apply w-full flex flex-row justify-between items-center py-6
+}
+
+.navbar__logo {
+  @apply h-[40px] w-fit object-contain
+}
+
+.navbar__linkswrap {
+  @apply max-md:hidden flex flex-row gap-6 text-sm text-grey-500
+}
+
+.navbar__user {
+  @apply max-md:hidden flex flex-row items-center gap-4 text-grey-500
+}
+
+.navbar__button {
+  @apply max-md:block hidden
+}

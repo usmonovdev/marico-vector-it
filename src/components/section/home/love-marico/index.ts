@@ -1,0 +1,1 @@
+export { LoveMarico } from "./LoveMarico"

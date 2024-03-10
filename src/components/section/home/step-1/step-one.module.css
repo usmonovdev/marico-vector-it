@@ -1,0 +1,43 @@
+.one_wrap {
+  @apply flex flex-col gap-8
+}
+
+.one_bottom {
+  @apply flex flex-row max-lg:flex-col w-full gap-6
+}
+
+.left {
+  @apply w-full flex justify-center flex-col gap-4
+}
+
+.left h2 {
+  @apply text-2xl font-bold
+}
+
+.left h1 {
+  @apply text-2xl font-bold
+}
+
+.left h2 span {
+  @apply text-primary-500
+}
+
+.left .info {
+  @apply flex flex-col gap-2
+}
+
+.left .info span {
+  @apply flex flex-row gap-2
+}
+
+.left .info span div {
+  @apply w-[25px] h-[25px] rounded-full bg-grey-900 flex items-center justify-center
+}
+
+.left .button_group {
+  @apply flex flex-row max-sm:flex-col gap-4
+}
+
+.right {
+  @apply w-full flex items-center justify-center
+}

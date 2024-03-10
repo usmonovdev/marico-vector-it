@@ -1,0 +1,7 @@
+.layout {
+  @apply min-h-screen w-full flex flex-col items-center justify-between
+}
+
+.layout main {
+  @apply w-full flex flex-col items-start gap-[100px]
+}

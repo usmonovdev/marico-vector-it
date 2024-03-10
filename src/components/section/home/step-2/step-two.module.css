@@ -1,0 +1,49 @@
+.main {
+  @apply w-full flex flex-col items-center gap-4
+}
+
+.main .top {
+  @apply flex flex-row max-md:flex-col w-full gap-4
+}
+
+.main .top .left,
+.main .top .right {
+  @apply w-full bg-[#0D0D0D] pt-8 pl-8 max-md:pt-3 max-md:pl-3
+}
+
+.main .top .right {
+  @apply max-md:pb-3 max-md:pr-3
+}
+
+.main .left {
+  @apply flex flex-col gap-3
+}
+
+.main .left p,
+.main .right p {
+  @apply text-sm text-green-500
+}
+
+.main .left h2 {
+  @apply text-3xl max-md:text-md font-bold text-grey-500
+}
+
+.main .left h2 span {
+  @apply text-white
+}
+
+.main .left img {
+  @apply w-full object-cover
+}
+
+.main .right div {
+  @apply w-full h-full flex flex-col justify-center
+}
+
+.main .right div h1 {
+  @apply text-3xl max-md:text-md font-bold text-grey-500
+}
+
+.main .right div h2 {
+  @apply text-3xl max-md:text-md font-bold text-white
+}

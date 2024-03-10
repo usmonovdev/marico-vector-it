@@ -1,0 +1,15 @@
+.title_wrap {
+  @apply flex flex-col gap-1 items-center max-w-[500px] w-full mx-auto text-center
+}
+
+.title_wrap h4 {
+  @apply text-primary-500 uppercase
+}
+
+.title_wrap h1 {
+  @apply text-3xl max-md:text-2xl font-bold
+}
+
+.title_wrap h2 {
+  @apply text-sm text-grey-500 mb-3
+}
